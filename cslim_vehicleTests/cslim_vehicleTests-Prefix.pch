@@ -1,0 +1,7 @@
+//
+// Prefix header for all source files of the 'cslim_vehicleTests' target in the 'cslim_vehicleTests' project
+//
+
+#ifdef __OBJC__
+    #import <UIKit/UIKit.h>
+#endif

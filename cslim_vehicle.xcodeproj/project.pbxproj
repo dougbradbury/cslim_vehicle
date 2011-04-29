@@ -1,0 +1,484 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		70F4D922136B5D6F00F04EDB /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 70F4D921136B5D6F00F04EDB /* UIKit.framework */; };
+		70F4D924136B5D6F00F04EDB /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 70F4D923136B5D6F00F04EDB /* Foundation.framework */; };
+		70F4D926136B5D6F00F04EDB /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 70F4D925136B5D6F00F04EDB /* CoreGraphics.framework */; };
+		70F4D928136B5D6F00F04EDB /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 70F4D927136B5D6F00F04EDB /* CoreData.framework */; };
+		70F4D92E136B5D6F00F04EDB /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 70F4D92C136B5D6F00F04EDB /* InfoPlist.strings */; };
+		70F4D931136B5D6F00F04EDB /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 70F4D930136B5D6F00F04EDB /* main.m */; };
+		70F4D934136B5D6F00F04EDB /* cslim_vehicleAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 70F4D933136B5D6F00F04EDB /* cslim_vehicleAppDelegate.m */; };
+		70F4D937136B5D6F00F04EDB /* cslim_vehicle.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 70F4D935136B5D6F00F04EDB /* cslim_vehicle.xcdatamodeld */; };
+		70F4D93A136B5D6F00F04EDB /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 70F4D938136B5D6F00F04EDB /* MainWindow.xib */; };
+		70F4D93D136B5D6F00F04EDB /* RootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 70F4D93C136B5D6F00F04EDB /* RootViewController.m */; };
+		70F4D940136B5D6F00F04EDB /* RootViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 70F4D93E136B5D6F00F04EDB /* RootViewController.xib */; };
+		70F4D947136B5D7000F04EDB /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 70F4D921136B5D6F00F04EDB /* UIKit.framework */; };
+		70F4D948136B5D7000F04EDB /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 70F4D923136B5D6F00F04EDB /* Foundation.framework */; };
+		70F4D949136B5D7000F04EDB /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 70F4D925136B5D6F00F04EDB /* CoreGraphics.framework */; };
+		70F4D94A136B5D7000F04EDB /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 70F4D927136B5D6F00F04EDB /* CoreData.framework */; };
+		70F4D952136B5D7000F04EDB /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 70F4D950136B5D7000F04EDB /* InfoPlist.strings */; };
+		70F4D955136B5D7000F04EDB /* cslim_vehicleTests.h in Resources */ = {isa = PBXBuildFile; fileRef = 70F4D954136B5D7000F04EDB /* cslim_vehicleTests.h */; };
+		70F4D957136B5D7000F04EDB /* cslim_vehicleTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 70F4D956136B5D7000F04EDB /* cslim_vehicleTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		70F4D94B136B5D7000F04EDB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 70F4D914136B5D6F00F04EDB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 70F4D91C136B5D6F00F04EDB;
+			remoteInfo = cslim_vehicle;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		70F4D91D136B5D6F00F04EDB /* cslim_vehicle.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = cslim_vehicle.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		70F4D921136B5D6F00F04EDB /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		70F4D923136B5D6F00F04EDB /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		70F4D925136B5D6F00F04EDB /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		70F4D927136B5D6F00F04EDB /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		70F4D92B136B5D6F00F04EDB /* cslim_vehicle-Info.plist */ = {isa = PBXFileReference; path = "cslim_vehicle-Info.plist"; sourceTree = "<group>"; };
+		70F4D92D136B5D6F00F04EDB /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		70F4D92F136B5D6F00F04EDB /* cslim_vehicle-Prefix.pch */ = {isa = PBXFileReference; path = "cslim_vehicle-Prefix.pch"; sourceTree = "<group>"; };
+		70F4D930136B5D6F00F04EDB /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		70F4D932136B5D6F00F04EDB /* cslim_vehicleAppDelegate.h */ = {isa = PBXFileReference; path = cslim_vehicleAppDelegate.h; sourceTree = "<group>"; };
+		70F4D933136B5D6F00F04EDB /* cslim_vehicleAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = cslim_vehicleAppDelegate.m; sourceTree = "<group>"; };
+		70F4D936136B5D6F00F04EDB /* cslim_vehicle.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = cslim_vehicle.xcdatamodel; sourceTree = "<group>"; };
+		70F4D939136B5D6F00F04EDB /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainWindow.xib; sourceTree = "<group>"; };
+		70F4D93B136B5D6F00F04EDB /* RootViewController.h */ = {isa = PBXFileReference; path = RootViewController.h; sourceTree = "<group>"; };
+		70F4D93C136B5D6F00F04EDB /* RootViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RootViewController.m; sourceTree = "<group>"; };
+		70F4D93F136B5D6F00F04EDB /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/RootViewController.xib; sourceTree = "<group>"; };
+		70F4D946136B5D7000F04EDB /* cslim_vehicleTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = cslim_vehicleTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		70F4D94F136B5D7000F04EDB /* cslim_vehicleTests-Info.plist */ = {isa = PBXFileReference; path = "cslim_vehicleTests-Info.plist"; sourceTree = "<group>"; };
+		70F4D951136B5D7000F04EDB /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		70F4D953136B5D7000F04EDB /* cslim_vehicleTests-Prefix.pch */ = {isa = PBXFileReference; path = "cslim_vehicleTests-Prefix.pch"; sourceTree = "<group>"; };
+		70F4D954136B5D7000F04EDB /* cslim_vehicleTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = cslim_vehicleTests.h; sourceTree = "<group>"; };
+		70F4D956136B5D7000F04EDB /* cslim_vehicleTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = cslim_vehicleTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		70F4D91A136B5D6F00F04EDB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				70F4D922136B5D6F00F04EDB /* UIKit.framework in Frameworks */,
+				70F4D924136B5D6F00F04EDB /* Foundation.framework in Frameworks */,
+				70F4D926136B5D6F00F04EDB /* CoreGraphics.framework in Frameworks */,
+				70F4D928136B5D6F00F04EDB /* CoreData.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		70F4D942136B5D7000F04EDB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				70F4D947136B5D7000F04EDB /* UIKit.framework in Frameworks */,
+				70F4D948136B5D7000F04EDB /* Foundation.framework in Frameworks */,
+				70F4D949136B5D7000F04EDB /* CoreGraphics.framework in Frameworks */,
+				70F4D94A136B5D7000F04EDB /* CoreData.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		70F4D912136B5D6F00F04EDB = {
+			isa = PBXGroup;
+			children = (
+				70F4D929136B5D6F00F04EDB /* cslim_vehicle */,
+				70F4D94D136B5D7000F04EDB /* cslim_vehicleTests */,
+				70F4D920136B5D6F00F04EDB /* Frameworks */,
+				70F4D91E136B5D6F00F04EDB /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		70F4D91E136B5D6F00F04EDB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				70F4D91D136B5D6F00F04EDB /* cslim_vehicle.app */,
+				70F4D946136B5D7000F04EDB /* cslim_vehicleTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		70F4D920136B5D6F00F04EDB /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				70F4D921136B5D6F00F04EDB /* UIKit.framework */,
+				70F4D923136B5D6F00F04EDB /* Foundation.framework */,
+				70F4D925136B5D6F00F04EDB /* CoreGraphics.framework */,
+				70F4D927136B5D6F00F04EDB /* CoreData.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		70F4D929136B5D6F00F04EDB /* cslim_vehicle */ = {
+			isa = PBXGroup;
+			children = (
+				70F4D932136B5D6F00F04EDB /* cslim_vehicleAppDelegate.h */,
+				70F4D933136B5D6F00F04EDB /* cslim_vehicleAppDelegate.m */,
+				70F4D938136B5D6F00F04EDB /* MainWindow.xib */,
+				70F4D93B136B5D6F00F04EDB /* RootViewController.h */,
+				70F4D93C136B5D6F00F04EDB /* RootViewController.m */,
+				70F4D93E136B5D6F00F04EDB /* RootViewController.xib */,
+				70F4D935136B5D6F00F04EDB /* cslim_vehicle.xcdatamodeld */,
+				70F4D92A136B5D6F00F04EDB /* Supporting Files */,
+			);
+			path = cslim_vehicle;
+			sourceTree = "<group>";
+		};
+		70F4D92A136B5D6F00F04EDB /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				70F4D92B136B5D6F00F04EDB /* cslim_vehicle-Info.plist */,
+				70F4D92C136B5D6F00F04EDB /* InfoPlist.strings */,
+				70F4D92F136B5D6F00F04EDB /* cslim_vehicle-Prefix.pch */,
+				70F4D930136B5D6F00F04EDB /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		70F4D94D136B5D7000F04EDB /* cslim_vehicleTests */ = {
+			isa = PBXGroup;
+			children = (
+				70F4D954136B5D7000F04EDB /* cslim_vehicleTests.h */,
+				70F4D956136B5D7000F04EDB /* cslim_vehicleTests.m */,
+				70F4D94E136B5D7000F04EDB /* Supporting Files */,
+			);
+			path = cslim_vehicleTests;
+			sourceTree = "<group>";
+		};
+		70F4D94E136B5D7000F04EDB /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				70F4D94F136B5D7000F04EDB /* cslim_vehicleTests-Info.plist */,
+				70F4D950136B5D7000F04EDB /* InfoPlist.strings */,
+				70F4D953136B5D7000F04EDB /* cslim_vehicleTests-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		70F4D91C136B5D6F00F04EDB /* cslim_vehicle */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 70F4D95A136B5D7000F04EDB /* Build configuration list for PBXNativeTarget "cslim_vehicle" */;
+			buildPhases = (
+				70F4D919136B5D6F00F04EDB /* Sources */,
+				70F4D91A136B5D6F00F04EDB /* Frameworks */,
+				70F4D91B136B5D6F00F04EDB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = cslim_vehicle;
+			productName = cslim_vehicle;
+			productReference = 70F4D91D136B5D6F00F04EDB /* cslim_vehicle.app */;
+			productType = "com.apple.product-type.application";
+		};
+		70F4D945136B5D7000F04EDB /* cslim_vehicleTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 70F4D95D136B5D7000F04EDB /* Build configuration list for PBXNativeTarget "cslim_vehicleTests" */;
+			buildPhases = (
+				70F4D941136B5D7000F04EDB /* Sources */,
+				70F4D942136B5D7000F04EDB /* Frameworks */,
+				70F4D943136B5D7000F04EDB /* Resources */,
+				70F4D944136B5D7000F04EDB /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				70F4D94C136B5D7000F04EDB /* PBXTargetDependency */,
+			);
+			name = cslim_vehicleTests;
+			productName = cslim_vehicleTests;
+			productReference = 70F4D946136B5D7000F04EDB /* cslim_vehicleTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		70F4D914136B5D6F00F04EDB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				ORGANIZATIONNAME = "8th Light";
+			};
+			buildConfigurationList = 70F4D917136B5D6F00F04EDB /* Build configuration list for PBXProject "cslim_vehicle" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 70F4D912136B5D6F00F04EDB;
+			productRefGroup = 70F4D91E136B5D6F00F04EDB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				70F4D91C136B5D6F00F04EDB /* cslim_vehicle */,
+				70F4D945136B5D7000F04EDB /* cslim_vehicleTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		70F4D91B136B5D6F00F04EDB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				70F4D92E136B5D6F00F04EDB /* InfoPlist.strings in Resources */,
+				70F4D93A136B5D6F00F04EDB /* MainWindow.xib in Resources */,
+				70F4D940136B5D6F00F04EDB /* RootViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		70F4D943136B5D7000F04EDB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				70F4D952136B5D7000F04EDB /* InfoPlist.strings in Resources */,
+				70F4D955136B5D7000F04EDB /* cslim_vehicleTests.h in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		70F4D944136B5D7000F04EDB /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		70F4D919136B5D6F00F04EDB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				70F4D931136B5D6F00F04EDB /* main.m in Sources */,
+				70F4D934136B5D6F00F04EDB /* cslim_vehicleAppDelegate.m in Sources */,
+				70F4D937136B5D6F00F04EDB /* cslim_vehicle.xcdatamodeld in Sources */,
+				70F4D93D136B5D6F00F04EDB /* RootViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		70F4D941136B5D7000F04EDB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				70F4D957136B5D7000F04EDB /* cslim_vehicleTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		70F4D94C136B5D7000F04EDB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 70F4D91C136B5D6F00F04EDB /* cslim_vehicle */;
+			targetProxy = 70F4D94B136B5D7000F04EDB /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		70F4D92C136B5D6F00F04EDB /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				70F4D92D136B5D6F00F04EDB /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		70F4D938136B5D6F00F04EDB /* MainWindow.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				70F4D939136B5D6F00F04EDB /* en */,
+			);
+			name = MainWindow.xib;
+			sourceTree = "<group>";
+		};
+		70F4D93E136B5D6F00F04EDB /* RootViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				70F4D93F136B5D6F00F04EDB /* en */,
+			);
+			name = RootViewController.xib;
+			sourceTree = "<group>";
+		};
+		70F4D950136B5D7000F04EDB /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				70F4D951136B5D7000F04EDB /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		70F4D958136B5D7000F04EDB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = DEBUG;
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		70F4D959136B5D7000F04EDB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+			};
+			name = Release;
+		};
+		70F4D95B136B5D7000F04EDB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "cslim_vehicle/cslim_vehicle-Prefix.pch";
+				INFOPLIST_FILE = "cslim_vehicle/cslim_vehicle-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		70F4D95C136B5D7000F04EDB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "cslim_vehicle/cslim_vehicle-Prefix.pch";
+				INFOPLIST_FILE = "cslim_vehicle/cslim_vehicle-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				VALIDATE_PRODUCT = YES;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		70F4D95E136B5D7000F04EDB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/cslim_vehicle.app/cslim_vehicle";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "cslim_vehicleTests/cslim_vehicleTests-Prefix.pch";
+				INFOPLIST_FILE = "cslim_vehicleTests/cslim_vehicleTests-Info.plist";
+				OTHER_LDFLAGS = (
+					"-framework",
+					SenTestingKit,
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		70F4D95F136B5D7000F04EDB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/cslim_vehicle.app/cslim_vehicle";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "cslim_vehicleTests/cslim_vehicleTests-Prefix.pch";
+				INFOPLIST_FILE = "cslim_vehicleTests/cslim_vehicleTests-Info.plist";
+				OTHER_LDFLAGS = (
+					"-framework",
+					SenTestingKit,
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		70F4D917136B5D6F00F04EDB /* Build configuration list for PBXProject "cslim_vehicle" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				70F4D958136B5D7000F04EDB /* Debug */,
+				70F4D959136B5D7000F04EDB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		70F4D95A136B5D7000F04EDB /* Build configuration list for PBXNativeTarget "cslim_vehicle" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				70F4D95B136B5D7000F04EDB /* Debug */,
+				70F4D95C136B5D7000F04EDB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		70F4D95D136B5D7000F04EDB /* Build configuration list for PBXNativeTarget "cslim_vehicleTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				70F4D95E136B5D7000F04EDB /* Debug */,
+				70F4D95F136B5D7000F04EDB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		70F4D935136B5D6F00F04EDB /* cslim_vehicle.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				70F4D936136B5D6F00F04EDB /* cslim_vehicle.xcdatamodel */,
+			);
+			currentVersion = 70F4D936136B5D6F00F04EDB /* cslim_vehicle.xcdatamodel */;
+			path = cslim_vehicle.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 70F4D914136B5D6F00F04EDB /* Project object */;
+}
