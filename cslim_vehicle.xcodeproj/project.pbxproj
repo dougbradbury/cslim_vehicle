@@ -25,6 +25,25 @@
 		70F4D952136B5D7000F04EDB /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 70F4D950136B5D7000F04EDB /* InfoPlist.strings */; };
 		70F4D955136B5D7000F04EDB /* cslim_vehicleTests.h in Resources */ = {isa = PBXBuildFile; fileRef = 70F4D954136B5D7000F04EDB /* cslim_vehicleTests.h */; };
 		70F4D957136B5D7000F04EDB /* cslim_vehicleTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 70F4D956136B5D7000F04EDB /* cslim_vehicleTests.m */; };
+		70F4D96A136B600E00F04EDB /* ListExecutor.c in Sources */ = {isa = PBXBuildFile; fileRef = 70F4D961136B600E00F04EDB /* ListExecutor.c */; };
+		70F4D96B136B600E00F04EDB /* ListExecutor.c in Sources */ = {isa = PBXBuildFile; fileRef = 70F4D961136B600E00F04EDB /* ListExecutor.c */; };
+		70F4D96C136B600E00F04EDB /* Slim.c in Sources */ = {isa = PBXBuildFile; fileRef = 70F4D962136B600E00F04EDB /* Slim.c */; };
+		70F4D96D136B600E00F04EDB /* Slim.c in Sources */ = {isa = PBXBuildFile; fileRef = 70F4D962136B600E00F04EDB /* Slim.c */; };
+		70F4D96E136B600E00F04EDB /* SlimConnectionHandler.c in Sources */ = {isa = PBXBuildFile; fileRef = 70F4D963136B600E00F04EDB /* SlimConnectionHandler.c */; };
+		70F4D96F136B600E00F04EDB /* SlimConnectionHandler.c in Sources */ = {isa = PBXBuildFile; fileRef = 70F4D963136B600E00F04EDB /* SlimConnectionHandler.c */; };
+		70F4D970136B600E00F04EDB /* SlimList.c in Sources */ = {isa = PBXBuildFile; fileRef = 70F4D964136B600E00F04EDB /* SlimList.c */; };
+		70F4D971136B600E00F04EDB /* SlimList.c in Sources */ = {isa = PBXBuildFile; fileRef = 70F4D964136B600E00F04EDB /* SlimList.c */; };
+		70F4D972136B600E00F04EDB /* SlimListDeserializer.c in Sources */ = {isa = PBXBuildFile; fileRef = 70F4D965136B600E00F04EDB /* SlimListDeserializer.c */; };
+		70F4D973136B600E00F04EDB /* SlimListDeserializer.c in Sources */ = {isa = PBXBuildFile; fileRef = 70F4D965136B600E00F04EDB /* SlimListDeserializer.c */; };
+		70F4D974136B600E00F04EDB /* SlimListSerializer.c in Sources */ = {isa = PBXBuildFile; fileRef = 70F4D966136B600E00F04EDB /* SlimListSerializer.c */; };
+		70F4D975136B600E00F04EDB /* SlimListSerializer.c in Sources */ = {isa = PBXBuildFile; fileRef = 70F4D966136B600E00F04EDB /* SlimListSerializer.c */; };
+		70F4D976136B600E00F04EDB /* SlimUtil.c in Sources */ = {isa = PBXBuildFile; fileRef = 70F4D967136B600E00F04EDB /* SlimUtil.c */; };
+		70F4D977136B600E00F04EDB /* SlimUtil.c in Sources */ = {isa = PBXBuildFile; fileRef = 70F4D967136B600E00F04EDB /* SlimUtil.c */; };
+		70F4D978136B600E00F04EDB /* StatementExecutor.c in Sources */ = {isa = PBXBuildFile; fileRef = 70F4D968136B600E00F04EDB /* StatementExecutor.c */; };
+		70F4D979136B600E00F04EDB /* StatementExecutor.c in Sources */ = {isa = PBXBuildFile; fileRef = 70F4D968136B600E00F04EDB /* StatementExecutor.c */; };
+		70F4D97A136B600E00F04EDB /* SymbolTable.c in Sources */ = {isa = PBXBuildFile; fileRef = 70F4D969136B600E00F04EDB /* SymbolTable.c */; };
+		70F4D97B136B600E00F04EDB /* SymbolTable.c in Sources */ = {isa = PBXBuildFile; fileRef = 70F4D969136B600E00F04EDB /* SymbolTable.c */; };
+		70F4D989136B636A00F04EDB /* fixtures.c in Sources */ = {isa = PBXBuildFile; fileRef = 70F4D987136B636A00F04EDB /* fixtures.c */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -43,23 +62,43 @@
 		70F4D923136B5D6F00F04EDB /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		70F4D925136B5D6F00F04EDB /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
 		70F4D927136B5D6F00F04EDB /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
-		70F4D92B136B5D6F00F04EDB /* cslim_vehicle-Info.plist */ = {isa = PBXFileReference; path = "cslim_vehicle-Info.plist"; sourceTree = "<group>"; };
+		70F4D92B136B5D6F00F04EDB /* cslim_vehicle-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "cslim_vehicle-Info.plist"; sourceTree = "<group>"; };
 		70F4D92D136B5D6F00F04EDB /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		70F4D92F136B5D6F00F04EDB /* cslim_vehicle-Prefix.pch */ = {isa = PBXFileReference; path = "cslim_vehicle-Prefix.pch"; sourceTree = "<group>"; };
+		70F4D92F136B5D6F00F04EDB /* cslim_vehicle-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "cslim_vehicle-Prefix.pch"; sourceTree = "<group>"; };
 		70F4D930136B5D6F00F04EDB /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		70F4D932136B5D6F00F04EDB /* cslim_vehicleAppDelegate.h */ = {isa = PBXFileReference; path = cslim_vehicleAppDelegate.h; sourceTree = "<group>"; };
+		70F4D932136B5D6F00F04EDB /* cslim_vehicleAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = cslim_vehicleAppDelegate.h; sourceTree = "<group>"; };
 		70F4D933136B5D6F00F04EDB /* cslim_vehicleAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = cslim_vehicleAppDelegate.m; sourceTree = "<group>"; };
 		70F4D936136B5D6F00F04EDB /* cslim_vehicle.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = cslim_vehicle.xcdatamodel; sourceTree = "<group>"; };
 		70F4D939136B5D6F00F04EDB /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainWindow.xib; sourceTree = "<group>"; };
-		70F4D93B136B5D6F00F04EDB /* RootViewController.h */ = {isa = PBXFileReference; path = RootViewController.h; sourceTree = "<group>"; };
+		70F4D93B136B5D6F00F04EDB /* RootViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RootViewController.h; sourceTree = "<group>"; };
 		70F4D93C136B5D6F00F04EDB /* RootViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RootViewController.m; sourceTree = "<group>"; };
 		70F4D93F136B5D6F00F04EDB /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/RootViewController.xib; sourceTree = "<group>"; };
 		70F4D946136B5D7000F04EDB /* cslim_vehicleTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = cslim_vehicleTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
-		70F4D94F136B5D7000F04EDB /* cslim_vehicleTests-Info.plist */ = {isa = PBXFileReference; path = "cslim_vehicleTests-Info.plist"; sourceTree = "<group>"; };
+		70F4D94F136B5D7000F04EDB /* cslim_vehicleTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "cslim_vehicleTests-Info.plist"; sourceTree = "<group>"; };
 		70F4D951136B5D7000F04EDB /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		70F4D953136B5D7000F04EDB /* cslim_vehicleTests-Prefix.pch */ = {isa = PBXFileReference; path = "cslim_vehicleTests-Prefix.pch"; sourceTree = "<group>"; };
+		70F4D953136B5D7000F04EDB /* cslim_vehicleTests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "cslim_vehicleTests-Prefix.pch"; sourceTree = "<group>"; };
 		70F4D954136B5D7000F04EDB /* cslim_vehicleTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = cslim_vehicleTests.h; sourceTree = "<group>"; };
 		70F4D956136B5D7000F04EDB /* cslim_vehicleTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = cslim_vehicleTests.m; sourceTree = "<group>"; };
+		70F4D961136B600E00F04EDB /* ListExecutor.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = ListExecutor.c; sourceTree = "<group>"; };
+		70F4D962136B600E00F04EDB /* Slim.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = Slim.c; sourceTree = "<group>"; };
+		70F4D963136B600E00F04EDB /* SlimConnectionHandler.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = SlimConnectionHandler.c; sourceTree = "<group>"; };
+		70F4D964136B600E00F04EDB /* SlimList.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = SlimList.c; sourceTree = "<group>"; };
+		70F4D965136B600E00F04EDB /* SlimListDeserializer.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = SlimListDeserializer.c; sourceTree = "<group>"; };
+		70F4D966136B600E00F04EDB /* SlimListSerializer.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = SlimListSerializer.c; sourceTree = "<group>"; };
+		70F4D967136B600E00F04EDB /* SlimUtil.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = SlimUtil.c; sourceTree = "<group>"; };
+		70F4D968136B600E00F04EDB /* StatementExecutor.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = StatementExecutor.c; sourceTree = "<group>"; };
+		70F4D969136B600E00F04EDB /* SymbolTable.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = SymbolTable.c; sourceTree = "<group>"; };
+		70F4D97D136B603A00F04EDB /* Fixtures.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Fixtures.h; sourceTree = "<group>"; };
+		70F4D97E136B603A00F04EDB /* ListExecutor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ListExecutor.h; sourceTree = "<group>"; };
+		70F4D97F136B603A00F04EDB /* Slim.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Slim.h; sourceTree = "<group>"; };
+		70F4D980136B603A00F04EDB /* SlimConnectionHandler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SlimConnectionHandler.h; sourceTree = "<group>"; };
+		70F4D981136B603A00F04EDB /* SlimList.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SlimList.h; sourceTree = "<group>"; };
+		70F4D982136B603A00F04EDB /* SlimListDeserializer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SlimListDeserializer.h; sourceTree = "<group>"; };
+		70F4D983136B603A00F04EDB /* SlimListSerializer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SlimListSerializer.h; sourceTree = "<group>"; };
+		70F4D984136B603A00F04EDB /* SlimUtil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SlimUtil.h; sourceTree = "<group>"; };
+		70F4D985136B603A00F04EDB /* StatementExecutor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StatementExecutor.h; sourceTree = "<group>"; };
+		70F4D986136B603A00F04EDB /* SymbolTable.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SymbolTable.h; sourceTree = "<group>"; };
+		70F4D987136B636A00F04EDB /* fixtures.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = fixtures.c; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -91,6 +130,8 @@
 		70F4D912136B5D6F00F04EDB = {
 			isa = PBXGroup;
 			children = (
+				70F4D97C136B603A00F04EDB /* CSlim */,
+				70F4D960136B600E00F04EDB /* CSlim */,
 				70F4D929136B5D6F00F04EDB /* cslim_vehicle */,
 				70F4D94D136B5D7000F04EDB /* cslim_vehicleTests */,
 				70F4D920136B5D6F00F04EDB /* Frameworks */,
@@ -129,6 +170,7 @@
 				70F4D93E136B5D6F00F04EDB /* RootViewController.xib */,
 				70F4D935136B5D6F00F04EDB /* cslim_vehicle.xcdatamodeld */,
 				70F4D92A136B5D6F00F04EDB /* Supporting Files */,
+				70F4D987136B636A00F04EDB /* fixtures.c */,
 			);
 			path = cslim_vehicle;
 			sourceTree = "<group>";
@@ -162,6 +204,41 @@
 				70F4D953136B5D7000F04EDB /* cslim_vehicleTests-Prefix.pch */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		70F4D960136B600E00F04EDB /* CSlim */ = {
+			isa = PBXGroup;
+			children = (
+				70F4D961136B600E00F04EDB /* ListExecutor.c */,
+				70F4D962136B600E00F04EDB /* Slim.c */,
+				70F4D963136B600E00F04EDB /* SlimConnectionHandler.c */,
+				70F4D964136B600E00F04EDB /* SlimList.c */,
+				70F4D965136B600E00F04EDB /* SlimListDeserializer.c */,
+				70F4D966136B600E00F04EDB /* SlimListSerializer.c */,
+				70F4D967136B600E00F04EDB /* SlimUtil.c */,
+				70F4D968136B600E00F04EDB /* StatementExecutor.c */,
+				70F4D969136B600E00F04EDB /* SymbolTable.c */,
+			);
+			name = CSlim;
+			path = cslim/src/CSlim;
+			sourceTree = "<group>";
+		};
+		70F4D97C136B603A00F04EDB /* CSlim */ = {
+			isa = PBXGroup;
+			children = (
+				70F4D97D136B603A00F04EDB /* Fixtures.h */,
+				70F4D97E136B603A00F04EDB /* ListExecutor.h */,
+				70F4D97F136B603A00F04EDB /* Slim.h */,
+				70F4D980136B603A00F04EDB /* SlimConnectionHandler.h */,
+				70F4D981136B603A00F04EDB /* SlimList.h */,
+				70F4D982136B603A00F04EDB /* SlimListDeserializer.h */,
+				70F4D983136B603A00F04EDB /* SlimListSerializer.h */,
+				70F4D984136B603A00F04EDB /* SlimUtil.h */,
+				70F4D985136B603A00F04EDB /* StatementExecutor.h */,
+				70F4D986136B603A00F04EDB /* SymbolTable.h */,
+			);
+			name = CSlim;
+			path = cslim/include/CSlim;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -276,6 +353,16 @@
 				70F4D934136B5D6F00F04EDB /* cslim_vehicleAppDelegate.m in Sources */,
 				70F4D937136B5D6F00F04EDB /* cslim_vehicle.xcdatamodeld in Sources */,
 				70F4D93D136B5D6F00F04EDB /* RootViewController.m in Sources */,
+				70F4D96A136B600E00F04EDB /* ListExecutor.c in Sources */,
+				70F4D96C136B600E00F04EDB /* Slim.c in Sources */,
+				70F4D96E136B600E00F04EDB /* SlimConnectionHandler.c in Sources */,
+				70F4D970136B600E00F04EDB /* SlimList.c in Sources */,
+				70F4D972136B600E00F04EDB /* SlimListDeserializer.c in Sources */,
+				70F4D974136B600E00F04EDB /* SlimListSerializer.c in Sources */,
+				70F4D976136B600E00F04EDB /* SlimUtil.c in Sources */,
+				70F4D978136B600E00F04EDB /* StatementExecutor.c in Sources */,
+				70F4D97A136B600E00F04EDB /* SymbolTable.c in Sources */,
+				70F4D989136B636A00F04EDB /* fixtures.c in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -284,6 +371,15 @@
 			buildActionMask = 2147483647;
 			files = (
 				70F4D957136B5D7000F04EDB /* cslim_vehicleTests.m in Sources */,
+				70F4D96B136B600E00F04EDB /* ListExecutor.c in Sources */,
+				70F4D96D136B600E00F04EDB /* Slim.c in Sources */,
+				70F4D96F136B600E00F04EDB /* SlimConnectionHandler.c in Sources */,
+				70F4D971136B600E00F04EDB /* SlimList.c in Sources */,
+				70F4D973136B600E00F04EDB /* SlimListDeserializer.c in Sources */,
+				70F4D975136B600E00F04EDB /* SlimListSerializer.c in Sources */,
+				70F4D977136B600E00F04EDB /* SlimUtil.c in Sources */,
+				70F4D979136B600E00F04EDB /* StatementExecutor.c in Sources */,
+				70F4D97B136B600E00F04EDB /* SymbolTable.c in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -345,6 +441,7 @@
 				GCC_VERSION = com.apple.compilers.llvmgcc42;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = cslim/include;
 				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
 				SDKROOT = iphoneos;
 			};
@@ -359,6 +456,7 @@
 				GCC_VERSION = com.apple.compilers.llvmgcc42;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = cslim/include;
 				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
 				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
 				SDKROOT = iphoneos;
